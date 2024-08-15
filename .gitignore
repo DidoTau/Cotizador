@@ -1,0 +1,3 @@
+# agrega lo que se suele poner en un gitignore
+node_modules/
+.env
