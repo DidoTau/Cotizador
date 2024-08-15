@@ -1,8 +1,7 @@
 import request from 'supertest';
-import { Express } from 'express'; // Import the Express type from the express package
 import app from '../src/index';
 import axios from 'axios';
-import {describe, expect, test, it, jest} from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import MockAdapter from 'axios-mock-adapter';
 
 const mock = new MockAdapter(axios);

@@ -33,3 +33,7 @@ To install and run this application, follow these steps:
     ```
     npm run test
     ```
+
+
+## Video
+Here a link to a YouTube video with a brief explanation of how the application was build and its use [VIDEO](https://youtu.be/WfY2omUaivM).
