@@ -1,5 +1,29 @@
-# agrega lo que se suele poner en un gitignore
-node_modules/
-.env
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+# add backend/node_modules to the .gitignore file in the frontend folder
+backend/node_modules
+frontend/node_modules
+# testing
+/coverage
+
+# production
+/build
+/dist
+/frontend/build
+/frontend/dist
+/backend/build
+/backend/dist
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
